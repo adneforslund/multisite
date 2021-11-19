@@ -70,6 +70,10 @@ export default function Home({ pseudoLocale }) {
             </p>
           </div>
         </div>
+        <img
+          style={{ width: "1000px" }}
+          src="https://i.insider.com/57893ad34321f16b018b8b16?width=1000&format=jpeg&auto=webp"
+        />
       </main>
     </div>
   );
