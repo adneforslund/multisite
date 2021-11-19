@@ -34,9 +34,6 @@ export default function Home({ pseudoLocale }) {
 
         <div>
           <div>
-            <h3>
-              Switch site (<code>locale</code>)
-            </h3>
             <p>
               Currently: <strong>{locale}</strong>
             </p>
