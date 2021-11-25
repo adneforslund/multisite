@@ -12,7 +12,6 @@ export default function Home({ pseudoLocale }) {
   const nextLocale = pseudoLocales.find(
     (otherLocale) => otherLocale !== pseudoLocale
   );
-  const nextSiteNr = locale === "korea" ? 1 : 2;
 
   const siteAndLocale = sites[locale] && sites[locale].locales[pseudoLocale];
 
