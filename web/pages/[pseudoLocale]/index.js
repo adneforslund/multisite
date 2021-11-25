@@ -36,7 +36,6 @@ export default function Home({ pseudoLocale }) {
             <p>
               Currently: <strong>{locale}</strong>
             </p>
-            <p>Go to: site/domain {nextSiteNr}</p>
           </div>
 
           <Link href={`/${nextLocale}`}>
