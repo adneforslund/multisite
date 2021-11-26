@@ -3,4 +3,5 @@ export default {
   title: "Page ref",
   type: "reference",
   to: [{ type: "page" }],
+  readOnly: true,
 };

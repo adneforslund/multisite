@@ -1,5 +1,5 @@
 export default {
-  name: "News",
+  name: "news",
   title: "News",
   type: "document",
   fields: [
@@ -14,7 +14,6 @@ export default {
       type: "pageRef",
       title: "Page",
       description: "Which page this article belongs to",
-      validation: (Rule) => Rule.required(),
     },
     {
       name: "portableText",
