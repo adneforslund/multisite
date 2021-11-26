@@ -13,7 +13,6 @@ export default {
       name: "pageRef",
       type: "pageRef",
       title: "Page",
-      description: "Which page this article belongs to",
     },
     {
       name: "portableText",

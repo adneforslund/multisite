@@ -6,6 +6,7 @@ import schemaTypes from "all:part:@sanity/base/schema-type";
 
 import news from "./documents/news";
 import page from "./documents/page";
+import footer from "./documents/footer";
 
 import portableText from "./fields/portableText";
 import pageRef from "./fields/pageRef";
@@ -20,6 +21,7 @@ export default createSchema({
     page,
     portableText,
     pageRef,
+    footer,
 
     /* Your types here! */
   ]),
