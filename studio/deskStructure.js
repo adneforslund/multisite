@@ -29,6 +29,11 @@ export default () =>
                       .schemaType("footer")
                       .documentId(`footer-${pageId}`)
                   ),
+                S.listItem()
+                  .title("Menu")
+                  .child(
+                    S.document().schemaType("menu").documentId(`menu-${pageId}`)
+                  ),
               ])
           )
         ),
@@ -48,6 +53,6 @@ export default () =>
           ),
       }),*/
       ...S.documentTypeListItems().filter(
-        (listItem) => !["news", "footer"].includes(listItem.getId())
+        (listItem) => !["news", "footer", "menu"].includes(listItem.getId())
       ),
     ]);
