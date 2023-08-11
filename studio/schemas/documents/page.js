@@ -1,6 +1,6 @@
 export default {
   name: "page",
-  title: "Page",
+  title: "Sider for Elmera",
   type: "document",
   fields: [
     {

@@ -2,17 +2,17 @@ import S from "@sanity/desk-tool/structure-builder";
 
 export default () =>
   S.list()
-    .title("Content")
+    .title("Innhold")
     .items([
       S.listItem()
-        .title("Page Contents")
+        .title("Innhold for sider")
         .child(
           S.documentTypeList("page").child((pageId) =>
             S.list()
-              .title("Content")
+              .title("Innhold")
               .items([
                 S.listItem()
-                  .title("News")
+                  .title("Nyhter")
                   .child(
                     S.documentTypeList("news")
                       .title("News by page")
@@ -30,7 +30,7 @@ export default () =>
                       .documentId(`footer-${pageId}`)
                   ),
                 S.listItem()
-                  .title("Menu")
+                  .title("Meny")
                   .child(
                     S.document().schemaType("menu").documentId(`menu-${pageId}`)
                   ),
